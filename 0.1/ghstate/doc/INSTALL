@@ -1,0 +1,40 @@
+//
+// ## BEGIN COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
+// SOFTWARE NAME: Granite Horizon States datatype, GH State
+// SOFTWARE RELEASE: 0.1
+// COPYRIGHT NOTICE: Copyright © 2010 Granite Horizon, LLC (portions copyright copyright © 2006 eZ Systems)
+// SPECIAL THANKS TO: Brandon Chambers of divdesigns.com
+// SOFTWARE LICENSE: GNU General Public License v2.0
+// NOTICE: >
+//   This program is free software; you can redistribute it and/or
+//   modify it under the terms of version 2.0  of the GNU General
+//   Public License as published by the Free Software Foundation.
+//
+//   This program is distributed in the hope that it will be useful,
+//   but WITHOUT ANY WARRANTY; without even the implied warranty of
+//   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//   GNU General Public License for more details.
+//
+//   You should have received a copy of version 2.0 of the GNU General
+//   Public License along with this program; if not, write to the Free
+//   Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+//   MA 02110-1301, USA.
+//
+//
+// ## END COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
+//
+
+	Granite Horizon, LLC
+	www.granitehorizon.com
+	
+	For any inqueries contact us at:
+	info@granitehorizon.com
+	
+This datatype is based on eZ Publish's eZCountry datatype.
+
+Installation:
+
+1. Enable the extension in settings/override/site.ini.append.php
+2. Add the "ghstate" module to PolicyOmitList[] under [RoleSettings] (or in the relevant siteaccess's site.ini.append.php ??)
+3. Run the [ezpublish root]/bin/php/ezpgenerateautoloads.php script to load the new datatype into eZ
+4. CLEAR YOUR CACHES!
